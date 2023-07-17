@@ -1,0 +1,4 @@
+A simple portscanner that scans 1000 ports for any given target. Target can be provided as a URL or as an IP address.
+
+This should only be used on networks and devices that you have permission to scan.
+
