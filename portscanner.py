@@ -40,15 +40,9 @@ def scan(target):
 if __name__ == "__main__":
     target = input("[+] Please enter the target(s) you would like to scan: ")
 
-    start = time.perf_counter()
-
     if "," in target:
         for ip in target.split(","):
             scan(ip.strip())
 
     else:
         scan(target.strip())
-
-    end = time.perf_counter()
-
-    print(round(end - start, 2))
